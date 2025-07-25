@@ -22,7 +22,7 @@ function LearningJourney() {
             key={item.title}
             className="flex flex-col items-center justify-center rounded-md bg-primary p-6 text-center"
           >
-            <Image src={item.images} alt={item.title} width={70} height={70} />
+            <Image src={item.image} alt={item.title} width={70} height={70} />
             <h2 className="mt-2 line-clamp-1 font-space-grotesk text-lg font-bold text-secondary">
               {t(item.title)}
             </h2>

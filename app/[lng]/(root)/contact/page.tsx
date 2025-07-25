@@ -1,3 +1,4 @@
+import ContactForm from "@/components/forms/contact.form";
 import TopBar from "@/components/shared/top-bar";
 import { translation } from "@/i18next/server";
 import { LngParams } from "@/types";
@@ -37,7 +38,7 @@ async function Page({ params: { lng } }: LngParams) {
             <h1 className="mb-2 font-space-grotesk text-4xl font-bold">
               {t("contactForm")}
             </h1>
-            {/* <ContactForm /> */}
+            <ContactForm />
           </div>
         </div>
       </div>

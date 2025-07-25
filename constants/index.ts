@@ -60,22 +60,22 @@ export const filterLevels = [
 
 export const categories = [
   {
-    icon: "/assets/image.png",
+    icon: "/assets/categories/digital-marketing.jpg",
     label: "Digital Marketing",
   },
-  { icon: "/assets/image2.png", label: "Web Development" },
-  { icon: "/assets/image2.png", label: "Graphic Design" },
-  { icon: "/assets/image2.png", label: "Photography" },
-  { icon: "/assets/image2.png", label: "Social Sciences" },
+  { icon: "/assets/categories/web-dev.jpeg", label: "Web Development" },
+  { icon: "/assets/categories/graphic.jpeg", label: "Graphic Design" },
+  { icon: "/assets/categories/photogrpahy.jpg", label: "Photography" },
+  { icon: "/assets/categories/social.jpeg", label: "Social Sciences" },
   {
-    icon: "/assets/image2.png",
+    icon: "/assets/categories/art.jpeg",
     label: "Arts & Humanities",
   },
   {
-    icon: "/assets/image2.png",
+    icon: "/assets/categories/personal.jpeg",
     label: "Personal Development",
   },
-  { icon: "/assets/image2.png", label: "IT & Software" },
+  { icon: "/assets/categories/it.jpeg", label: "IT & Software" },
 ];
 
 export const instructors = [
