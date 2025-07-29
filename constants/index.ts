@@ -60,7 +60,7 @@ export const filterLevels = [
 
 export const categories = [
   {
-    icon: "/assets/categories/digital-marketing.jpg",
+    icon: "/assets/categories/digital-marketing.png",
     label: "Digital Marketing",
   },
   { icon: "/assets/categories/web-dev.jpeg", label: "Web Development" },

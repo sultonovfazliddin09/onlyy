@@ -4,7 +4,7 @@ import { translation } from "@/i18next/server";
 import { LngParams } from "@/types";
 import { Mail, Phone } from "lucide-react";
 
-async function Page({ params: { lng } }: LngParams) {
+async function Contact({ params: { lng } }: LngParams) {
   const { t } = await translation(lng);
 
   return (
@@ -46,4 +46,4 @@ async function Page({ params: { lng } }: LngParams) {
   );
 }
 
-export default Page;
+export default Contact;

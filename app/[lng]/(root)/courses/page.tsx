@@ -2,7 +2,7 @@ import TopBar from "@/components/shared/top-bar";
 import React from "react";
 import AllCourses from "./_component/all-course";
 
-const Page = () => {
+const Course = () => {
   return (
     <>
       <TopBar label="allCourses" description="allCoursesDesCription" />
@@ -11,4 +11,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default Course;
